@@ -1,2 +1,4 @@
-2026/07/21-00:31:49.913 2620 Creating DB C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\shared_proto_db since it was missing.
-2026/07/21-00:31:50.076 2620 Reusing MANIFEST C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\shared_proto_db/MANIFEST-000001
+2026/07/21-08:15:39.424 3f60 Creating DB C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\shared_proto_db since it was missing.
+2026/07/21-08:15:39.449 3f60 Reusing MANIFEST C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\shared_proto_db/MANIFEST-000001
+2026/07/21-08:15:39.451 3f60 Recovering log #3
+2026/07/21-08:15:39.454 3f60 Reusing old log C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\shared_proto_db/000003.log 

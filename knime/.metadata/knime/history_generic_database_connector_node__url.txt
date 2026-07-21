@@ -1,0 +1,4 @@
+jdbc:mysql://127.0.0.1:3306/eventos_quito
+jdbc:postgresql://<host>:<port>/[database]
+jdbc:mysql://<127.0.0.1>:<5432>/eventos_quito
+jdbc:mysql://<host>:<port>/[database]

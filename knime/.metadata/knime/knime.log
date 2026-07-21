@@ -825,3 +825,551 @@ org.eclipse.core.internal.resources.ResourceException(/)[568]: java.io.FileNotFo
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
 2026-07-21 01:09:31,870 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x00000261d94444d0 :  : FileUtil :  :  : Deleting 18 temporary files.
+2026-07-21 08:15:22,308 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-07-21 08:15:22,314 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-07-21 08:15:22,314 : INFO  : main :  : NodeLogger :  :  : # Welcome to KNIME Analytics Platform v5.11.0.v202603030810 (Build March 03, 2026)      #
+2026-07-21 08:15:22,315 : INFO  : main :  : NodeLogger :  :  : # Based on Eclipse, http://www.eclipse.org                                              #
+2026-07-21 08:15:22,315 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-07-21 08:15:22,315 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-07-21 08:15:22,315 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-07-21 08:15:22,315 : INFO  : main :  : NodeLogger :  :  : # Copyright by KNIME AG, Zurich, Switzerland and others.                                #
+2026-07-21 08:15:22,316 : INFO  : main :  : NodeLogger :  :  : # Website: http://www.knime.com                                                         #
+2026-07-21 08:15:22,316 : INFO  : main :  : NodeLogger :  :  : # E-mail: contact@knime.com                                                             #
+2026-07-21 08:15:22,316 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-07-21 08:15:22,316 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-07-21 08:15:22,316 : INFO  : main :  : NodeLogger :  :  : # For more details see the KNIME log file:                                              #
+2026-07-21 08:15:22,317 : INFO  : main :  : NodeLogger :  :  : # C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\knime.log
+2026-07-21 08:15:22,317 : INFO  : main :  : NodeLogger :  :  : #---------------------------------------------------------------------------------------#
+2026-07-21 08:15:22,397 : INFO  : main :  : NodeLogger :  :  : # logging date=mar jul 21 08:15:22 ECT 2026
+2026-07-21 08:15:22,398 : INFO  : main :  : NodeLogger :  :  : # java.version=21.0.9
+2026-07-21 08:15:22,398 : INFO  : main :  : NodeLogger :  :  : # java.vm.version=21.0.9+10-LTS
+2026-07-21 08:15:22,398 : INFO  : main :  : NodeLogger :  :  : # java.vendor=Eclipse Adoptium
+2026-07-21 08:15:22,398 : INFO  : main :  : NodeLogger :  :  : # os.name=Windows 11
+2026-07-21 08:15:22,399 : INFO  : main :  : NodeLogger :  :  : # os.arch=amd64
+2026-07-21 08:15:22,399 : INFO  : main :  : NodeLogger :  :  : # number of CPUs=8
+2026-07-21 08:15:22,399 : INFO  : main :  : NodeLogger :  :  : # assertions=off
+2026-07-21 08:15:22,433 : INFO  : main :  : NodeLogger :  :  : # host=Victor
+2026-07-21 08:15:22,444 : INFO  : main :  : NodeLogger :  :  : # username=Victor
+2026-07-21 08:15:22,444 : INFO  : main :  : NodeLogger :  :  : # max mem=4036MB
+2026-07-21 08:15:22,445 : INFO  : main :  : NodeLogger :  :  : # application=org.knime.product.KNIME_APPLICATION
+2026-07-21 08:15:22,450 : INFO  : main :  : NodeLogger :  :  : # KNID=11-0098ebe145790588-01-eb8c5fe2a926a843
+2026-07-21 08:15:22,450 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-07-21 08:12:50,540 : INFO  : main :  : RegisterBouncyCastleProvider :  :  : Added BouncyCastleProvider to Java Security providers
+2026-07-21 08:15:21,908 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Starting conda environment initialization during early startup
+2026-07-21 08:15:22,031 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Conda environment initialization completed successfully
+2026-07-21 08:15:33,135 : INFO  : main :  : StringHistory :  :  : History file 'C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\history_database_drivers.txt' does not exist.
+2026-07-21 08:15:33,136 : INFO  : main :  : StringHistory :  :  : History file 'C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\history_database_urls.txt' does not exist.
+2026-07-21 08:15:45,702 : INFO  : Node Repository Initializer :  : MovingAggregationNodeFactory :  :  : Modern dialog for Moving Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-07-21 08:15:45,775 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\history_string2date-formats.txt' does not exist.
+2026-07-21 08:15:49,230 : INFO  : main :  : ProcessWatchdog :  :  : KNIME Process Watchdog memory limit not configured
+2026-07-21 08:15:49,231 : INFO  : main :  : ProcessWatchdog :  :  : External process memory watchdog is disabled, because the memory limit is set to -1
+2026-07-21 08:15:52,001 : INFO  : main :  : StringHistory :  :  : History file 'C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\history_org.knime.kerberos.name.txt' does not exist.
+2026-07-21 08:15:54,235 : INFO  : Thread-169 :  : KnimeBrowserView :  :  : %cinfo%c Injecting global logger 
+      background: #00BCD4;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 08:15:58,982 : WARN  : ModalContext :  : Node : Statistics : 3:9 : Maximum number of unique possible values (1000) exceeds for column(s): "asistentes_estimados"
+2026-07-21 08:16:22,940 : INFO  : Node Repository Initializer :  : Pivot2NodeFactory :  :  : Modern dialog for Pivot node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-07-21 08:16:23,586 : INFO  : Node Repository Initializer :  : GroupByNodeFactory :  :  : Modern dialog for GroupBy node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-07-21 08:16:27,768 : INFO  : Node Repository Initializer :  : ColumnAggregatorNodeFactory :  :  : Modern dialog for Column Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-07-21 08:16:28,585 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\history_createFileNameHistoryKey.txt' does not exist.
+2026-07-21 08:16:31,084 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-07-21 08:16:31,103 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-07-21 08:16:31,104 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-07-21 08:16:35,026 : ERROR : Thread-1915 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: Cannot read properties of null (reading 'shadowRoot') (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 08:16:35,040 : ERROR : Thread-1918 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: Cannot read properties of null (reading 'shadowRoot') (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 08:16:50,041 : INFO  : comm-pool-thread-1 :  : NodeRecommendationManager :  :  : Loading node recommendations from <org.knime.core.ui.workflowcoach.data.PrefsTripleProvider>
+2026-07-21 08:16:50,042 : INFO  : comm-pool-thread-1 :  : NodeRecommendationManager :  :  : Loading node recommendations from <org.knime.workbench.workflowcoach.data.CommunityTripleProvider>
+2026-07-21 08:16:50,553 : INFO  : comm-pool-thread-1 :  : NodeRecommendationManager :  :  : Loading node recommendations from <org.knime.workbench.workflowcoach.local.data.WorkspaceTripleProvider>
+2026-07-21 08:16:50,553 : INFO  : comm-pool-thread-1 :  : NodeRecommendationManager :  :  : Successfully (re-)loaded all node recommendations available
+2026-07-21 08:17:36,976 : ERROR : Thread-4230 :  : KnimeBrowserView :  :  : ResizeObserver loop completed with undelivered notifications. (source: https://org.knime.ui.java/index.html#/workflow/ETL_Trafico_Quito_cb3d39fb-1131-4f0a-8de0-6fcbdaa51b95/root?version; line: 0)
+2026-07-21 08:17:47,211 : ERROR : Thread-4481 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to get port view
+ * No port view available at index 1 for current state of node Joiner 3:9. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 08:17:47,214 : ERROR : Thread-4483 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 08:18:02,650 : INFO  : KNIME-Worker-0-Joiner 3:9 :  : LocalNodeExecutionJob : Joiner : 3:9 : Joiner 3:9 End execute (15 secs)
+2026-07-21 08:18:08,698 : WARN  : comm-pool-thread-1 :  : Node : GroupBy : 3:10 : No grouping column included. Aggregate complete table.
+2026-07-21 08:18:08,700 : WARN  : comm-pool-thread-1 :  : Node : GroupBy : 3:10 : No aggregation column defined
+2026-07-21 08:18:10,277 : WARN  : comm-pool-thread-1 :  : Node : GroupBy : 3:10 : Please select at least one group or aggregation column
+2026-07-21 08:24:01,920 : INFO  : KNIME-Worker-1-GroupBy 3:10 :  : LocalNodeExecutionJob : GroupBy : 3:10 : GroupBy 3:10 End execute (0 secs)
+2026-07-21 08:24:19,910 : INFO  : KNIME-Worker-1-Bar Chart 3:11 :  : LocalNodeExecutionJob : Bar Chart : 3:11 : Bar Chart 3:11 End execute (0 secs)
+2026-07-21 08:24:20,444 : WARN  : Thread-5757 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.barchart.BarChartNodeFactory/BarChart.html; line: 0)
+2026-07-21 08:24:54,491 : INFO  : KNIME-Worker-1-Joiner 3:9 :  : LocalNodeExecutionJob : Joiner : 3:9 : Joiner 3:9 End execute (3 secs)
+2026-07-21 08:24:55,056 : INFO  : KNIME-Worker-2-GroupBy 3:10 :  : LocalNodeExecutionJob : GroupBy : 3:10 : GroupBy 3:10 End execute (0 secs)
+2026-07-21 08:24:55,066 : INFO  : KNIME-Worker-1-Bar Chart 3:11 :  : LocalNodeExecutionJob : Bar Chart : 3:11 : Bar Chart 3:11 End execute (0 secs)
+2026-07-21 08:24:55,333 : WARN  : Thread-6699 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.barchart.BarChartNodeFactory/BarChart.html; line: 0)
+2026-07-21 08:25:54,903 : WARN  : comm-pool-thread-5 :  : Node : GroupBy : 3:12 : No grouping column included. Aggregate complete table.
+2026-07-21 08:25:54,904 : WARN  : comm-pool-thread-5 :  : Node : GroupBy : 3:12 : No aggregation column defined
+2026-07-21 08:25:54,905 : WARN  : comm-pool-thread-5 :  : Node : GroupBy : 3:12 : Please select at least one group or aggregation column
+2026-07-21 08:26:22,544 : INFO  : KNIME-Worker-2-GroupBy 3:12 :  : LocalNodeExecutionJob : GroupBy : 3:12 : GroupBy 3:12 End execute (1 sec)
+2026-07-21 08:26:38,063 : INFO  : KNIME-Worker-3-Pie Chart 3:13 :  : LocalNodeExecutionJob : Pie Chart : 3:13 : Pie Chart 3:13 End execute (0 secs)
+2026-07-21 08:26:38,372 : WARN  : Thread-8318 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.piechart.PieChartNodeFactory/PieChart.html; line: 0)
+2026-07-21 08:26:55,793 : WARN  : Thread-9038 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.piechart.PieChartNodeFactory/PieChart.html; line: 0)
+2026-07-21 08:31:27,948 : INFO  : comm-pool-thread-6 :  : FilterOperatorsRegistry : Row Filter : 3:14 : Experimental Row Filter extension point "org.knime.core.ui.filterOperators" is disabled for 3rd party extensions: To enable it, set the system property "org.knime.core.ui.filterOperators.enableExperimentalExtensionPoint" to "true".
+2026-07-21 08:33:01,510 : INFO  : KNIME-Worker-7-Row Filter 3:14 :  : RowFilterNodeModel : Row Filter : 3:14 : The result table at port 0 contains no rows
+2026-07-21 08:33:01,511 : WARN  : KNIME-Worker-7-Row Filter 3:14 :  : Node : Row Filter : 3:14 : Node created an empty data table.
+2026-07-21 08:33:01,511 : INFO  : KNIME-Worker-7-Row Filter 3:14 :  : LocalNodeExecutionJob : Row Filter : 3:14 : Row Filter 3:14 End execute (0 secs)
+2026-07-21 08:34:52,684 : INFO  : KNIME-Worker-4-Row Filter 3:14 :  : LocalNodeExecutionJob : Row Filter : 3:14 : Row Filter 3:14 End execute (0 secs)
+2026-07-21 08:35:22,722 : WARN  : comm-pool-thread-6 :  : Node : Unpivot : 3:15 : This node was auto-configured. No columns have been specified in the configuration. Now all suitable columns in 'value' and 'retained' column lists are used.
+2026-07-21 08:35:57,241 : INFO  : KNIME-Worker-9-Unpivot 3:15 :  : LocalNodeExecutionJob : Unpivot : 3:15 : Unpivot 3:15 End execute (0 secs)
+2026-07-21 08:36:37,412 : INFO  : KNIME-Worker-10-Line Plot 3:16 :  : LocalNodeExecutionJob : Line Plot : 3:16 : Line Plot 3:16 End execute (0 secs)
+2026-07-21 08:36:37,633 : WARN  : Thread-16904 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.lineplot.LinePlotNodeFactory/LinePlot.html; line: 0)
+2026-07-21 08:37:20,902 : WARN  : comm-pool-thread-6 :  : Node : Unpivot : 3:15 : No 'value' column was specified for the unpivoting operation.
+2026-07-21 08:37:32,409 : INFO  : KNIME-Worker-11-Unpivot 3:15 :  : LocalNodeExecutionJob : Unpivot : 3:15 : Unpivot 3:15 End execute (0 secs)
+2026-07-21 08:37:51,242 : INFO  : KNIME-Worker-12-Unpivot 3:15 :  : LocalNodeExecutionJob : Unpivot : 3:15 : Unpivot 3:15 End execute (0 secs)
+2026-07-21 08:37:55,361 : INFO  : KNIME-Worker-13-Line Plot 3:16 :  : LocalNodeExecutionJob : Line Plot : 3:16 : Line Plot 3:16 End execute (0 secs)
+2026-07-21 08:37:55,470 : WARN  : Thread-19336 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.lineplot.LinePlotNodeFactory/LinePlot.html; line: 0)
+2026-07-21 08:38:40,215 : WARN  : Thread-20970 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.lineplot.LinePlotNodeFactory/LinePlot.html; line: 0)
+2026-07-21 08:39:57,603 : INFO  : KNIME-Worker-14-Unpivot 3:15 :  : LocalNodeExecutionJob : Unpivot : 3:15 : Unpivot 3:15 End execute (0 secs)
+2026-07-21 08:40:10,423 : INFO  : KNIME-Worker-15-Line Plot 3:16 :  : LocalNodeExecutionJob : Line Plot : 3:16 : Line Plot 3:16 End execute (0 secs)
+2026-07-21 08:40:10,529 : WARN  : Thread-23132 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.lineplot.LinePlotNodeFactory/LinePlot.html; line: 0)
+2026-07-21 08:41:14,098 : WARN  : Thread-23773 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.lineplot.LinePlotNodeFactory/LinePlot.html; line: 0)
+2026-07-21 08:41:38,664 : INFO  : KNIME-Worker-16-Unpivot 3:15 :  : LocalNodeExecutionJob : Unpivot : 3:15 : Unpivot 3:15 End execute (0 secs)
+2026-07-21 08:41:49,397 : INFO  : KNIME-Worker-17-Line Plot 3:16 :  : LocalNodeExecutionJob : Line Plot : 3:16 : Line Plot 3:16 End execute (0 secs)
+2026-07-21 08:41:49,543 : WARN  : Thread-25400 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.lineplot.LinePlotNodeFactory/LinePlot.html; line: 0)
+2026-07-21 08:44:02,753 : INFO  : KNIME-Worker-18-Unpivot 3:15 :  : LocalNodeExecutionJob : Unpivot : 3:15 : Unpivot 3:15 End execute (0 secs)
+2026-07-21 08:44:09,734 : INFO  : KNIME-Worker-19-Line Plot 3:16 :  : LocalNodeExecutionJob : Line Plot : 3:16 : Line Plot 3:16 End execute (0 secs)
+2026-07-21 08:44:16,592 : WARN  : Thread-27635 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.lineplot.LinePlotNodeFactory/LinePlot.html; line: 0)
+2026-07-21 08:44:33,500 : WARN  : Thread-28437 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.lineplot.LinePlotNodeFactory/LinePlot.html; line: 0)
+2026-07-21 08:45:06,485 : INFO  : KNIME-Worker-20-Unpivot 3:15 :  : LocalNodeExecutionJob : Unpivot : 3:15 : Unpivot 3:15 End execute (0 secs)
+2026-07-21 08:45:19,467 : INFO  : KNIME-Worker-21-Line Plot 3:16 :  : LocalNodeExecutionJob : Line Plot : 3:16 : Line Plot 3:16 End execute (0 secs)
+2026-07-21 08:45:19,624 : WARN  : Thread-30449 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.lineplot.LinePlotNodeFactory/LinePlot.html; line: 0)
+2026-07-21 08:45:40,237 : INFO  : KNIME-Worker-22-Unpivot 3:15 :  : LocalNodeExecutionJob : Unpivot : 3:15 : Unpivot 3:15 End execute (0 secs)
+2026-07-21 08:45:46,773 : INFO  : KNIME-Worker-23-Line Plot 3:16 :  : LocalNodeExecutionJob : Line Plot : 3:16 : Line Plot 3:16 End execute (0 secs)
+2026-07-21 08:45:46,895 : WARN  : Thread-31709 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.lineplot.LinePlotNodeFactory/LinePlot.html; line: 0)
+2026-07-21 08:46:28,822 : WARN  : Thread-33043 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.lineplot.LinePlotNodeFactory/LinePlot.html; line: 0)
+2026-07-21 08:47:24,915 : INFO  : KNIME-Worker-21-CSV Reader 3:4 :  : LocalNodeExecutionJob : CSV Reader : 3:4 : CSV Reader 3:4 End execute (0 secs)
+2026-07-21 08:47:25,076 : ERROR : Thread-34291 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to get port view
+ * No port view available at index 1 for current state of node CSV Reader 3:4. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 08:47:25,079 : ERROR : Thread-34293 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 08:48:39,175 : WARN  : KNIME-Worker-23-String to Number 3:18 :  : Node : String to Number : 3:18 : Problems in 3 rows, first error: "Pichincha" in cell ["Row0", column "provincia", row 1] can not be transformed into a number
+2026-07-21 08:48:39,189 : WARN  : KNIME-Worker-23-String to Number 3:18 :  : Node : String to Number : 3:18 : Problems in 3 rows, first error: "Pichincha" in cell ["Row0", column "provincia", row 1] can not be transformed into a number
+ RowID  | provincia |  2012 
+--------+-----------+--------
+ Row0   | Pichincha | 3964.0
+          ^^^^^^^^^
+For input string: "Pichincha"
+2026-07-21 08:48:39,190 : INFO  : KNIME-Worker-23-String to Number 3:18 :  : LocalNodeExecutionJob : String to Number : 3:18 : String to Number 3:18 End execute (0 secs)
+2026-07-21 08:48:47,279 : WARN  : KNIME-Worker-20-String to Number 3:18 :  : Node : String to Number : 3:18 : Problems in 10 rows, first error: "5,531" in cell ["Row0", column "2013", row 1] can not be transformed into a number
+2026-07-21 08:48:47,280 : WARN  : KNIME-Worker-20-String to Number 3:18 :  : Node : String to Number : 3:18 : Problems in 10 rows, first error: "5,531" in cell ["Row0", column "2013", row 1] can not be transformed into a number
+ RowID  |   ..   |  2012  |  2013  |  2014  
+--------+--------+--------+--------+---------
+ Row0   | ..     | 3964.0 | 5,531  | 15211.0
+                            ^^^^^
+For input string: "5,531"
+2026-07-21 08:48:47,280 : INFO  : KNIME-Worker-20-String to Number 3:18 :  : LocalNodeExecutionJob : String to Number : 3:18 : String to Number 3:18 End execute (0 secs)
+2026-07-21 08:48:51,482 : WARN  : comm-pool-thread-15 :  : Node : String to Number : 3:18 : No columns selected
+2026-07-21 08:48:51,495 : WARN  : KNIME-Worker-22-String to Number 3:18 :  : Node : String to Number : 3:18 : No columns selected, returning input table.
+2026-07-21 08:48:51,495 : INFO  : KNIME-Worker-22-String to Number 3:18 :  : LocalNodeExecutionJob : String to Number : 3:18 : String to Number 3:18 End execute (0 secs)
+2026-07-21 08:49:16,168 : WARN  : KNIME-Worker-24-String to Number 3:18 :  : Node : String to Number : 3:18 : Problems in 10 rows, first error: "5,531" in cell ["Row0", column "2013", row 1] can not be transformed into a number
+2026-07-21 08:49:16,169 : WARN  : KNIME-Worker-24-String to Number 3:18 :  : Node : String to Number : 3:18 : Problems in 10 rows, first error: "5,531" in cell ["Row0", column "2013", row 1] can not be transformed into a number
+ RowID  |   ..   |  2012  |  2013  |  2014  
+--------+--------+--------+--------+---------
+ Row0   | ..     | 3964.0 | 5,531  | 15211.0
+                            ^^^^^
+For input string: "5,531"
+2026-07-21 08:49:16,169 : INFO  : KNIME-Worker-24-String to Number 3:18 :  : LocalNodeExecutionJob : String to Number : 3:18 : String to Number 3:18 End execute (0 secs)
+2026-07-21 08:49:24,352 : INFO  : KNIME-Worker-23-String to Number 3:18 :  : LocalNodeExecutionJob : String to Number : 3:18 : String to Number 3:18 End execute (0 secs)
+2026-07-21 08:49:31,453 : INFO  : KNIME-Worker-20-Unpivot 3:15 :  : LocalNodeExecutionJob : Unpivot : 3:15 : Unpivot 3:15 End execute (0 secs)
+2026-07-21 08:49:37,770 : INFO  : KNIME-Worker-22-Line Plot 3:16 :  : LocalNodeExecutionJob : Line Plot : 3:16 : Line Plot 3:16 End execute (0 secs)
+2026-07-21 08:49:37,894 : WARN  : Thread-38455 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.lineplot.LinePlotNodeFactory/LinePlot.html; line: 0)
+2026-07-21 08:52:05,005 : INFO  : KNIME-Worker-28-Row Filter 3:19 :  : LocalNodeExecutionJob : Row Filter : 3:19 : Row Filter 3:19 End execute (0 secs)
+2026-07-21 08:52:12,006 : WARN  : Thread-42003 :  : CEFNodeView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.piechart.PieChartNodeFactory/PieChart.html; line: 0)
+2026-07-21 08:52:29,071 : INFO  : KNIME-Worker-25-String to Number 3:20 :  : LocalNodeExecutionJob : String to Number : 3:20 : String to Number 3:20 End execute (0 secs)
+2026-07-21 08:52:46,127 : WARN  : comm-pool-thread-16 :  : Node : Unpivot : 3:21 : This node was auto-configured. No columns have been specified in the configuration. Now all suitable columns in 'value' and 'retained' column lists are used.
+2026-07-21 08:53:06,991 : INFO  : KNIME-Worker-26-Unpivot 3:21 :  : LocalNodeExecutionJob : Unpivot : 3:21 : Unpivot 3:21 End execute (0 secs)
+2026-07-21 08:53:15,704 : INFO  : KNIME-Worker-29-Bar Chart 3:22 :  : LocalNodeExecutionJob : Bar Chart : 3:22 : Bar Chart 3:22 End execute (0 secs)
+2026-07-21 08:53:15,862 : WARN  : Thread-44245 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.barchart.BarChartNodeFactory/BarChart.html; line: 0)
+2026-07-21 08:53:22,976 : INFO  : KNIME-Worker-28-Bar Chart 3:22 :  : LocalNodeExecutionJob : Bar Chart : 3:22 : Bar Chart 3:22 End execute (0 secs)
+2026-07-21 08:53:23,097 : WARN  : Thread-44712 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.barchart.BarChartNodeFactory/BarChart.html; line: 0)
+2026-07-21 09:04:18,538 : WARN  : Thread-45788 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.piechart.PieChartNodeFactory/PieChart.html; line: 0)
+2026-07-21 09:04:30,574 : WARN  : Thread-46435 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.piechart.PieChartNodeFactory/PieChart.html; line: 0)
+2026-07-21 09:04:34,560 : WARN  : Thread-46738 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.piechart.PieChartNodeFactory/PieChart.html; line: 0)
+2026-07-21 09:05:21,360 : INFO  : KNIME-Worker-32-Bar Chart 3:23 :  : LocalNodeExecutionJob : Bar Chart : 3:23 : Bar Chart 3:23 End execute (0 secs)
+2026-07-21 09:05:21,462 : WARN  : Thread-48167 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.barchart.BarChartNodeFactory/BarChart.html; line: 0)
+2026-07-21 09:05:50,260 : WARN  : Thread-49359 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.barchart.BarChartNodeFactory/BarChart.html; line: 0)
+2026-07-21 09:11:16,165 : ERROR : main :  : SaveProjectCopy :  :  : No destion was picked
+2026-07-21 09:11:16,166 : ERROR : main :  : SaveProjectCopy :  :  : No valid destination could be picked
+2026-07-21 09:15:49,421 : WARN  : comm-pool-thread-15 :  : Node : DB Connector : 3:24 : Please select a database type.
+2026-07-21 09:16:14,952 : INFO  : AWT-EventQueue-0 :  : StringHistory : DB Connector : 3:24 : History file 'C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\history_generic_database_connector_node__url.txt' does not exist.
+2026-07-21 09:40:47,588 : WARN  : comm-pool-thread-15 :  : Node : PostgreSQL Connector : 3:24 : Database host is not defined.
+2026-07-21 09:41:12,613 : INFO  : AWT-EventQueue-0 :  : StringHistory : PostgreSQL Connector : 3:24 : History file 'C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\history_postgresql_connector_node__hostname.txt' does not exist.
+2026-07-21 09:41:12,623 : INFO  : AWT-EventQueue-0 :  : StringHistory : PostgreSQL Connector : 3:24 : History file 'C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\history_postgresql_connector_node__databaseName.txt' does not exist.
+2026-07-21 09:42:52,960 : INFO  : KNIME-Database-Connection-Creator-1 :  : UrlDBConnectionController : PostgreSQL Connector : 3:24 : Could not create connection to database using URL: jdbc:postgresql://localhost:5432/eventos_quito and parameters: [password, user]. Exception: FATAL: la autentificaci�n password fall� para el usuario �postgres�
+2026-07-21 09:42:52,965 : ERROR : KNIME-Worker-33-PostgreSQL Connector 3:24 :  : Node : PostgreSQL Connector : 3:24 : Execute failed: FATAL: la autentificaci�n password fall� para el usuario �postgres�
+org.postgresql.util.PSQLException: FATAL: la autentificaci�n password fall� para el usuario �postgres�
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:698)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at org.knime.database.connection.UrlDBConnectionController$ControlledDriver.connect(UrlDBConnectionController.java:104)
+	at org.knime.database.connection.UrlDBConnectionController.connect(UrlDBConnectionController.java:369)
+	at org.knime.database.connection.UserDBConnectionController.connect(UserDBConnectionController.java:307)
+	at org.knime.database.connection.UrlDBConnectionController.createConnection(UrlDBConnectionController.java:349)
+	at org.knime.database.connection.AbstractConnectionProvider.createConnection(AbstractConnectionProvider.java:104)
+	at org.knime.database.connection.impl.DBConnectionManager.lambda$4(DBConnectionManager.java:595)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2026-07-21 09:43:05,082 : INFO  : KNIME-Database-Connection-Creator-1 :  : UrlDBConnectionController : PostgreSQL Connector : 3:24 : Could not create connection to database using URL: jdbc:postgresql://localhost:5000/eventos_quito and parameters: [password, user]. Exception: Connection to localhost:5000 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2026-07-21 09:43:05,084 : ERROR : KNIME-Worker-34-PostgreSQL Connector 3:24 :  : Node : PostgreSQL Connector : 3:24 : Execute failed: Connection to localhost:5000 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+org.postgresql.util.PSQLException: Connection to localhost:5000 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:346)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at org.knime.database.connection.UrlDBConnectionController$ControlledDriver.connect(UrlDBConnectionController.java:104)
+	at org.knime.database.connection.UrlDBConnectionController.connect(UrlDBConnectionController.java:369)
+	at org.knime.database.connection.UserDBConnectionController.connect(UserDBConnectionController.java:307)
+	at org.knime.database.connection.UrlDBConnectionController.createConnection(UrlDBConnectionController.java:349)
+	at org.knime.database.connection.AbstractConnectionProvider.createConnection(AbstractConnectionProvider.java:104)
+	at org.knime.database.connection.impl.DBConnectionManager.lambda$4(DBConnectionManager.java:595)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:136)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+	... 14 more
+2026-07-21 09:43:19,338 : INFO  : KNIME-Database-Connection-Creator-1 :  : UrlDBConnectionController : PostgreSQL Connector : 3:24 : Could not create connection to database using URL: jdbc:postgresql://localhost:5432/eventos_quito and parameters: [password, user]. Exception: FATAL: la autentificaci�n password fall� para el usuario �postgres�
+2026-07-21 09:43:19,338 : ERROR : KNIME-Worker-35-PostgreSQL Connector 3:24 :  : Node : PostgreSQL Connector : 3:24 : Execute failed: FATAL: la autentificaci�n password fall� para el usuario �postgres�
+org.postgresql.util.PSQLException: FATAL: la autentificaci�n password fall� para el usuario �postgres�
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:698)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at org.knime.database.connection.UrlDBConnectionController$ControlledDriver.connect(UrlDBConnectionController.java:104)
+	at org.knime.database.connection.UrlDBConnectionController.connect(UrlDBConnectionController.java:369)
+	at org.knime.database.connection.UserDBConnectionController.connect(UserDBConnectionController.java:307)
+	at org.knime.database.connection.UrlDBConnectionController.createConnection(UrlDBConnectionController.java:349)
+	at org.knime.database.connection.AbstractConnectionProvider.createConnection(AbstractConnectionProvider.java:104)
+	at org.knime.database.connection.impl.DBConnectionManager.lambda$4(DBConnectionManager.java:595)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2026-07-21 09:43:32,269 : INFO  : KNIME-Database-Connection-Creator-1 :  : UrlDBConnectionController : PostgreSQL Connector : 3:24 : Could not create connection to database using URL: jdbc:postgresql://localhost:5432/eventos_quito and parameters: [password, user]. Exception: FATAL: la autentificaci�n password fall� para el usuario �postgres�
+2026-07-21 09:43:32,270 : ERROR : KNIME-Worker-36-PostgreSQL Connector 3:24 :  : Node : PostgreSQL Connector : 3:24 : Execute failed: FATAL: la autentificaci�n password fall� para el usuario �postgres�
+org.postgresql.util.PSQLException: FATAL: la autentificaci�n password fall� para el usuario �postgres�
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:698)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at org.knime.database.connection.UrlDBConnectionController$ControlledDriver.connect(UrlDBConnectionController.java:104)
+	at org.knime.database.connection.UrlDBConnectionController.connect(UrlDBConnectionController.java:369)
+	at org.knime.database.connection.UserDBConnectionController.connect(UserDBConnectionController.java:307)
+	at org.knime.database.connection.UrlDBConnectionController.createConnection(UrlDBConnectionController.java:349)
+	at org.knime.database.connection.AbstractConnectionProvider.createConnection(AbstractConnectionProvider.java:104)
+	at org.knime.database.connection.impl.DBConnectionManager.lambda$4(DBConnectionManager.java:595)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2026-07-21 09:43:40,798 : INFO  : KNIME-Worker-33-PostgreSQL Connector 3:24 :  : LocalNodeExecutionJob : PostgreSQL Connector : 3:24 : PostgreSQL Connector 3:24 End execute (0 secs)
+2026-07-21 09:43:40,799 : ERROR : KNIME-Worker-33-PostgreSQL Connector 3:24 :  : NodeStateChangeListener : PostgreSQL Connector : 3:24 : Caught an exception while notifying node state listeners, skipping throwing to preserve the state change
+java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.IWorkbenchWindow.getShell()" because the return value of "org.eclipse.ui.IWorkbench.getActiveWorkbenchWindow()" is null
+	at org.knime.ui.java.api.NodeAPI.getAppBoundsAsAWTRec(NodeAPI.java:179)
+	at org.knime.ui.java.api.PortAPI.lambda$2(PortAPI.java:129)
+	at org.knime.gateway.api.util.CoreUtil$1.stateChanged(CoreUtil.java:783)
+	at org.knime.core.node.workflow.NodeStateChangeListener.callStateChanged(NodeStateChangeListener.java:83)
+	at org.knime.core.node.workflow.NodeContainer.notifyStateChangeListeners(NodeContainer.java:958)
+	at org.knime.core.node.workflow.NodeContainer.setInternalState(NodeContainer.java:1030)
+	at org.knime.core.node.workflow.NativeNodeContainer.setInternalState(NativeNodeContainer.java:235)
+	at org.knime.core.node.workflow.NodeContainer.setInternalState(NodeContainer.java:1004)
+	at org.knime.core.node.workflow.NativeNodeContainer.performStateTransitionEXECUTED(NativeNodeContainer.java:557)
+	at org.knime.core.node.workflow.WorkflowManager.doAfterExecution(WorkflowManager.java:3736)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteFinished(NodeContainer.java:689)
+	at org.knime.core.node.workflow.NodeExecutionJob$AfterRunRunnable.run(NodeExecutionJob.java:385)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at org.knime.core.util.ThreadPool.runInvisible(ThreadPool.java:687)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:223)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:120)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-07-21 09:43:40,810 : WARN  : KNIME-Worker-33-PostgreSQL Connector 3:24 :  : Node : DB Writer : 3:25 : The table name must not be blank.
+2026-07-21 09:45:15,277 : ERROR : Thread-60272 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to get port view
+ * No port view available at index 1 for current state of node DB Writer 3:25. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 09:45:15,281 : ERROR : Thread-60274 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 09:45:15,701 : ERROR : KNIME-Worker-37-DB Writer 3:25 :  : Node : DB Writer : 3:25 : Execute failed: ERROR: no existe el esquema «trafico_quito»
+  Position: 14
+org.postgresql.util.PSQLException: ERROR: no existe el esquema «trafico_quito»
+  Position: 14
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:326)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:302)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:297)
+	at org.knime.database.connection.wrappers.AbstractStatementWrapper.execute(AbstractStatementWrapper.java:170)
+	at org.knime.database.connection.wrappers.AbstractStatementWrapper.execute(AbstractStatementWrapper.java:170)
+	at org.knime.database.connection.wrappers.AbstractStatementWrapper.execute(AbstractStatementWrapper.java:170)
+	at org.knime.database.connection.impl.monitored.MonitoredStatement.execute(MonitoredStatement.java:96)
+	at org.knime.database.connection.wrappers.AbstractStatementWrapper.execute(AbstractStatementWrapper.java:170)
+	at org.knime.database.agent.ddl.impl.DefaultDBStructureManipulator.createTable(DefaultDBStructureManipulator.java:153)
+	at org.knime.database.node.io.write2.DBWrite2NodeModel.executeWriter(DBWrite2NodeModel.java:175)
+	at org.knime.database.node.io.write2.DBWrite2NodeModel.executeWriter(DBWrite2NodeModel.java:1)
+	at org.knime.database.node.io.DBManipulation2NodeModel.executeStreamable(DBManipulation2NodeModel.java:333)
+	at org.knime.database.node.io.DBManipulation2NodeModel.execute(DBManipulation2NodeModel.java:279)
+	at org.knime.database.node.io.DBManipulation2NodeModel.execute(DBManipulation2NodeModel.java:1)
+	at org.knime.core.webui.node.impl.WebUINodeModel.execute(WebUINodeModel.java:168)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1331)
+	at org.knime.core.node.Node.execute(Node.java:1038)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:120)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-07-21 09:45:18,303 : ERROR : KNIME-Worker-38-DB Writer 3:25 :  : Node : DB Writer : 3:25 : Execute failed: ERROR: no existe el esquema «trafico_quito»
+  Position: 14
+org.postgresql.util.PSQLException: ERROR: no existe el esquema «trafico_quito»
+  Position: 14
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:326)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:302)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:297)
+	at org.knime.database.connection.wrappers.AbstractStatementWrapper.execute(AbstractStatementWrapper.java:170)
+	at org.knime.database.connection.wrappers.AbstractStatementWrapper.execute(AbstractStatementWrapper.java:170)
+	at org.knime.database.connection.wrappers.AbstractStatementWrapper.execute(AbstractStatementWrapper.java:170)
+	at org.knime.database.connection.impl.monitored.MonitoredStatement.execute(MonitoredStatement.java:96)
+	at org.knime.database.connection.wrappers.AbstractStatementWrapper.execute(AbstractStatementWrapper.java:170)
+	at org.knime.database.agent.ddl.impl.DefaultDBStructureManipulator.createTable(DefaultDBStructureManipulator.java:153)
+	at org.knime.database.node.io.write2.DBWrite2NodeModel.executeWriter(DBWrite2NodeModel.java:175)
+	at org.knime.database.node.io.write2.DBWrite2NodeModel.executeWriter(DBWrite2NodeModel.java:1)
+	at org.knime.database.node.io.DBManipulation2NodeModel.executeStreamable(DBManipulation2NodeModel.java:333)
+	at org.knime.database.node.io.DBManipulation2NodeModel.execute(DBManipulation2NodeModel.java:279)
+	at org.knime.database.node.io.DBManipulation2NodeModel.execute(DBManipulation2NodeModel.java:1)
+	at org.knime.core.webui.node.impl.WebUINodeModel.execute(WebUINodeModel.java:168)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1331)
+	at org.knime.core.node.Node.execute(Node.java:1038)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:120)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-07-21 09:45:19,962 : ERROR : KNIME-Worker-39-DB Writer 3:25 :  : Node : DB Writer : 3:25 : Execute failed: ERROR: no existe el esquema «trafico_quito»
+  Position: 14
+org.postgresql.util.PSQLException: ERROR: no existe el esquema «trafico_quito»
+  Position: 14
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:326)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:302)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:297)
+	at org.knime.database.connection.wrappers.AbstractStatementWrapper.execute(AbstractStatementWrapper.java:170)
+	at org.knime.database.connection.wrappers.AbstractStatementWrapper.execute(AbstractStatementWrapper.java:170)
+	at org.knime.database.connection.wrappers.AbstractStatementWrapper.execute(AbstractStatementWrapper.java:170)
+	at org.knime.database.connection.impl.monitored.MonitoredStatement.execute(MonitoredStatement.java:96)
+	at org.knime.database.connection.wrappers.AbstractStatementWrapper.execute(AbstractStatementWrapper.java:170)
+	at org.knime.database.agent.ddl.impl.DefaultDBStructureManipulator.createTable(DefaultDBStructureManipulator.java:153)
+	at org.knime.database.node.io.write2.DBWrite2NodeModel.executeWriter(DBWrite2NodeModel.java:175)
+	at org.knime.database.node.io.write2.DBWrite2NodeModel.executeWriter(DBWrite2NodeModel.java:1)
+	at org.knime.database.node.io.DBManipulation2NodeModel.executeStreamable(DBManipulation2NodeModel.java:333)
+	at org.knime.database.node.io.DBManipulation2NodeModel.execute(DBManipulation2NodeModel.java:279)
+	at org.knime.database.node.io.DBManipulation2NodeModel.execute(DBManipulation2NodeModel.java:1)
+	at org.knime.core.webui.node.impl.WebUINodeModel.execute(WebUINodeModel.java:168)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1331)
+	at org.knime.core.node.Node.execute(Node.java:1038)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:120)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-07-21 09:45:40,849 : ERROR : KNIME-Worker-40-DB Writer 3:25 :  : Node : DB Writer : 3:25 : Execute failed: ERROR: no existe el esquema «trafico_quito»
+  Position: 14
+org.postgresql.util.PSQLException: ERROR: no existe el esquema «trafico_quito»
+  Position: 14
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:326)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:302)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:297)
+	at org.knime.database.connection.wrappers.AbstractStatementWrapper.execute(AbstractStatementWrapper.java:170)
+	at org.knime.database.connection.wrappers.AbstractStatementWrapper.execute(AbstractStatementWrapper.java:170)
+	at org.knime.database.connection.wrappers.AbstractStatementWrapper.execute(AbstractStatementWrapper.java:170)
+	at org.knime.database.connection.impl.monitored.MonitoredStatement.execute(MonitoredStatement.java:96)
+	at org.knime.database.connection.wrappers.AbstractStatementWrapper.execute(AbstractStatementWrapper.java:170)
+	at org.knime.database.agent.ddl.impl.DefaultDBStructureManipulator.createTable(DefaultDBStructureManipulator.java:153)
+	at org.knime.database.node.io.write2.DBWrite2NodeModel.executeWriter(DBWrite2NodeModel.java:175)
+	at org.knime.database.node.io.write2.DBWrite2NodeModel.executeWriter(DBWrite2NodeModel.java:1)
+	at org.knime.database.node.io.DBManipulation2NodeModel.executeStreamable(DBManipulation2NodeModel.java:333)
+	at org.knime.database.node.io.DBManipulation2NodeModel.execute(DBManipulation2NodeModel.java:279)
+	at org.knime.database.node.io.DBManipulation2NodeModel.execute(DBManipulation2NodeModel.java:1)
+	at org.knime.core.webui.node.impl.WebUINodeModel.execute(WebUINodeModel.java:168)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1331)
+	at org.knime.core.node.Node.execute(Node.java:1038)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:120)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-07-21 09:45:44,772 : WARN  : comm-pool-thread-15 :  : ManagedConnection : DB Writer : 3:25 : 1 statements have not been closed before the closure of the managed connection.
+2026-07-21 09:47:09,407 : WARN  : comm-pool-thread-15 :  : ManagedConnection : DB Writer : 3:25 : 1 statements have not been closed before the closure of the managed connection.
+2026-07-21 09:47:13,647 : ERROR : Thread-61556 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to get port view
+ * No port view available at index 1 for current state of node DB Writer 3:25. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 09:47:13,650 : ERROR : Thread-61558 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 09:47:44,022 : INFO  : KNIME-Worker-41-DB Writer 3:25 :  : LocalNodeExecutionJob : DB Writer : 3:25 : DB Writer 3:25 End execute (30 secs)
+2026-07-21 09:48:49,999 : WARN  : comm-pool-thread-20 :  : Node : MySQL Connector : 3:26 : Database host is not defined.
+2026-07-21 09:49:29,476 : INFO  : AWT-EventQueue-0 :  : StringHistory : MySQL Connector : 3:26 : History file 'C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\history_mysql_connector_node__hostname.txt' does not exist.
+2026-07-21 09:49:29,482 : INFO  : AWT-EventQueue-0 :  : StringHistory : MySQL Connector : 3:26 : History file 'C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\history_mysql_connector_node__databaseName.txt' does not exist.
+2026-07-21 09:52:15,821 : INFO  : KNIME-Worker-42-MySQL Connector 3:26 :  : LocalNodeExecutionJob : MySQL Connector : 3:26 : MySQL Connector 3:26 End execute (3 secs)
+2026-07-21 09:52:15,827 : ERROR : KNIME-Worker-42-MySQL Connector 3:26 :  : NodeStateChangeListener : MySQL Connector : 3:26 : Caught an exception while notifying node state listeners, skipping throwing to preserve the state change
+java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.IWorkbenchWindow.getShell()" because the return value of "org.eclipse.ui.IWorkbench.getActiveWorkbenchWindow()" is null
+	at org.knime.ui.java.api.NodeAPI.getAppBoundsAsAWTRec(NodeAPI.java:179)
+	at org.knime.ui.java.api.PortAPI.lambda$2(PortAPI.java:129)
+	at org.knime.gateway.api.util.CoreUtil$1.stateChanged(CoreUtil.java:783)
+	at org.knime.core.node.workflow.NodeStateChangeListener.callStateChanged(NodeStateChangeListener.java:83)
+	at org.knime.core.node.workflow.NodeContainer.notifyStateChangeListeners(NodeContainer.java:958)
+	at org.knime.core.node.workflow.NodeContainer.setInternalState(NodeContainer.java:1030)
+	at org.knime.core.node.workflow.NativeNodeContainer.setInternalState(NativeNodeContainer.java:235)
+	at org.knime.core.node.workflow.NodeContainer.setInternalState(NodeContainer.java:1004)
+	at org.knime.core.node.workflow.NativeNodeContainer.performStateTransitionEXECUTED(NativeNodeContainer.java:557)
+	at org.knime.core.node.workflow.WorkflowManager.doAfterExecution(WorkflowManager.java:3736)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteFinished(NodeContainer.java:689)
+	at org.knime.core.node.workflow.NodeExecutionJob$AfterRunRunnable.run(NodeExecutionJob.java:385)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at org.knime.core.util.ThreadPool.runInvisible(ThreadPool.java:687)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:223)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:120)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-07-21 09:52:54,531 : WARN  : comm-pool-thread-21 :  : Node : DB Writer : 3:27 : The table name must not be blank.
+2026-07-21 09:54:54,419 : INFO  : KNIME-Worker-43-Row Filter 3:14 :  : LocalNodeExecutionJob : Row Filter : 3:14 : Row Filter 3:14 End execute (0 secs)
+2026-07-21 09:54:54,435 : INFO  : KNIME-Worker-44-String to Number 3:18 :  : LocalNodeExecutionJob : String to Number : 3:18 : String to Number 3:18 End execute (0 secs)
+2026-07-21 09:54:54,447 : INFO  : KNIME-Worker-45-Unpivot 3:15 :  : LocalNodeExecutionJob : Unpivot : 3:15 : Unpivot 3:15 End execute (0 secs)
+2026-07-21 09:54:54,453 : INFO  : KNIME-Worker-46-Line Plot 3:16 :  : LocalNodeExecutionJob : Line Plot : 3:16 : Line Plot 3:16 End execute (0 secs)
+2026-07-21 09:54:55,486 : WARN  : Thread-65016 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.lineplot.LinePlotNodeFactory/LinePlot.html; line: 0)
+2026-07-21 09:57:43,787 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x00000275d84044a0 :  : FileUtil :  :  : Deleting 19 temporary files.

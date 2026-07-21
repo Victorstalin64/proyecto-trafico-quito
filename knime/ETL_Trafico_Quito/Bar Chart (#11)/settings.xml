@@ -10,8 +10,8 @@
         <entry key="imageFormat" type="xstring" value="SVG"/>
         <entry key="width" type="xint" value="800"/>
         <entry key="height" type="xint" value="600"/>
-        <entry key="categoryColumnV3" type="xstring" value="Column"/>
-        <entry key="aggregationMethod" type="xstring" value="AVG"/>
+        <entry key="categoryColumnV3" type="xstring" value="hora"/>
+        <entry key="aggregationMethod" type="xstring" value="NONE"/>
         <config key="frequencyColumnsV2">
             <entry key="mode" type="xstring" value="MANUAL"/>
             <config key="patternFilter">
@@ -21,11 +21,11 @@
             </config>
             <config key="manualFilter">
                 <config key="manuallySelected">
-                    <entry key="array-size" type="xint" value="0"/>
+                    <entry key="array-size" type="xint" value="1"/>
+                    <entry key="0" type="xstring" value="Mean(nivel_congestion)"/>
                 </config>
                 <config key="manuallyDeselected">
-                    <entry key="array-size" type="xint" value="1"/>
-                    <entry key="0" type="xstring" value="No. missings"/>
+                    <entry key="array-size" type="xint" value="0"/>
                 </config>
                 <entry key="includeUnknownColumns" type="xboolean" value="false"/>
             </config>
@@ -36,7 +36,6 @@
             </config>
         </config>
     </config>
-    <config key="variables"/>
     <config key="view">
         <entry key="limitRows" type="xstring" value="AUTOMATIC"/>
         <entry key="maxRows" type="xint" value="100"/>
@@ -60,7 +59,6 @@
         <entry key="selectionMode" type="xstring" value="EDIT"/>
         <entry key="enableAnimation" type="xboolean" value="true"/>
     </config>
-    <config key="view_variables"/>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.views.node.barchart.BarChartNodeFactory"/>
@@ -95,30 +93,10 @@
                 <entry key="type" type="xstring" value="table"/>
                 <entry key="table_dir_location" type="xstring" value="object_1"/>
             </config>
-            <config key="object_2">
-                <entry key="index" type="xint" value="2"/>
-                <entry key="type" type="xstring" value="table"/>
-                <entry key="table_dir_location" type="xstring" value="object_2"/>
-            </config>
-            <config key="object_3">
-                <entry key="index" type="xint" value="3"/>
-                <entry key="type" type="xstring" value="table"/>
-                <entry key="table_dir_location" type="xstring" value="object_3"/>
-            </config>
-            <config key="object_4">
-                <entry key="index" type="xint" value="4"/>
-                <entry key="type" type="xstring" value="table"/>
-                <entry key="table_dir_location" type="xstring" value="object_4"/>
-            </config>
-            <config key="object_5">
-                <entry key="index" type="xint" value="5"/>
-                <entry key="type" type="xstring" value="table"/>
-                <entry key="table_dir_location" type="xstring" value="object_5"/>
-            </config>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="b1af952e-0c3b-4787-8cda-66edc0c9c4c3"/>
+        <entry key="file_store_id" type="xstring" value="a974b4f6-9caf-4a10-bbcf-4f2f03e22eba"/>
     </config>
 </config>

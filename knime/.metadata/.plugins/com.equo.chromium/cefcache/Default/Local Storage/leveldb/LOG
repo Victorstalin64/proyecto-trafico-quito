@@ -1,2 +1,4 @@
-2026/07/21-00:31:49.215 662c Creating DB C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\Local Storage\leveldb since it was missing.
-2026/07/21-00:31:49.381 662c Reusing MANIFEST C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\Local Storage\leveldb/MANIFEST-000001
+2026/07/21-08:15:39.069 40b0 Creating DB C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\Local Storage\leveldb since it was missing.
+2026/07/21-08:15:39.155 40b0 Reusing MANIFEST C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\Local Storage\leveldb/MANIFEST-000001
+2026/07/21-08:15:39.158 40b0 Recovering log #3
+2026/07/21-08:15:39.169 40b0 Reusing old log C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\Local Storage\leveldb/000003.log 

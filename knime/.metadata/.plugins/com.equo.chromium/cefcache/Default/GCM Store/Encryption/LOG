@@ -1,2 +1,4 @@
-2026/07/21-00:33:22.197 40a0 Creating DB C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\GCM Store\Encryption since it was missing.
-2026/07/21-00:33:22.265 40a0 Reusing MANIFEST C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\GCM Store\Encryption/MANIFEST-000001
+2026/07/21-08:15:57.934 65fc Creating DB C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\GCM Store\Encryption since it was missing.
+2026/07/21-08:15:57.967 65fc Reusing MANIFEST C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\GCM Store\Encryption/MANIFEST-000001
+2026/07/21-08:15:57.969 65fc Recovering log #3
+2026/07/21-08:15:57.970 65fc Reusing old log C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\GCM Store\Encryption/000003.log 

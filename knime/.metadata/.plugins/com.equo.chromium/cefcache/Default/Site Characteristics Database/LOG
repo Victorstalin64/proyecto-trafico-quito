@@ -1,2 +1,4 @@
-2026/07/21-00:31:49.394 6168 Creating DB C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\Site Characteristics Database since it was missing.
-2026/07/21-00:31:49.489 6168 Reusing MANIFEST C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\Site Characteristics Database/MANIFEST-000001
+2026/07/21-08:15:39.014 5f8c Creating DB C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\Site Characteristics Database since it was missing.
+2026/07/21-08:15:39.060 5f8c Reusing MANIFEST C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\Site Characteristics Database/MANIFEST-000001
+2026/07/21-08:15:39.061 5f8c Recovering log #3
+2026/07/21-08:15:39.062 5f8c Reusing old log C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\Site Characteristics Database/000003.log 

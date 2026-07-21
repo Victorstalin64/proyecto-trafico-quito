@@ -1,2 +1,4 @@
-2026/07/21-00:32:54.834 662c Creating DB C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\Session Storage since it was missing.
-2026/07/21-00:32:56.000 662c Reusing MANIFEST C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\Session Storage/MANIFEST-000001
+2026/07/21-08:15:53.752 531c Creating DB C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\Session Storage since it was missing.
+2026/07/21-08:15:53.808 531c Reusing MANIFEST C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\Session Storage/MANIFEST-000001
+2026/07/21-08:15:53.816 531c Recovering log #3
+2026/07/21-08:15:53.826 531c Reusing old log C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\Session Storage/000003.log 
