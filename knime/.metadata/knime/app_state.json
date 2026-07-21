@@ -1,0 +1,22 @@
+{
+  "version" : "5.11.0.v202603030810",
+  "projects" : [ {
+    "name" : "ETL_Trafico_Quito",
+    "active" : true,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "ETL_Trafico_Quito"
+    }
+  } ],
+  "mostRecentlyUsedProjects" : [ {
+    "name" : "ETL_Trafico_Quito",
+    "timeUsed" : "2026-07-21T00:35:05.3545247-05:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "ETL_Trafico_Quito"
+    }
+  } ]
+}

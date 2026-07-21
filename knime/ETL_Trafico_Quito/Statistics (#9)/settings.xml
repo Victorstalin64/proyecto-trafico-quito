@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="compute_median" type="xboolean" value="false"/>
+        <config key="filter_nominal_columns">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="4"/>
+                <entry key="0" type="xstring" value="hora"/>
+                <entry key="1" type="xstring" value="dia_semana"/>
+                <entry key="2" type="xstring" value="asistentes_estimados"/>
+                <entry key="3" type="xstring" value="impacto_trafico_pct"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="4"/>
+                <entry key="0" type="xstring" value="fecha_hora"/>
+                <entry key="1" type="xstring" value="zona"/>
+                <entry key="2" type="xstring" value="tipo_evento"/>
+                <entry key="3" type="xstring" value="evento_activo"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist"/>
+            </config>
+        </config>
+        <entry key="num_nominal-values" type="xint" value="20"/>
+        <entry key="num_nominal-values_output" type="xint" value="1000"/>
+        <entry key="enable HiLite" type="xboolean" value="false"/>
+        <entry key="image format" type="xstring" value="SVG"/>
+        <entry key="histogram width" type="xint" value="200"/>
+        <entry key="histogram height" type="xint" value="100"/>
+        <entry key="show min max" type="xboolean" value="true"/>
+    </config>
+    <config key="variables"/>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Maximum number of unique possible values (1000) exceeds for column(s): &quot;asistentes_estimados&quot;"/>
+    </config>
+    <entry key="factory" type="xstring" value="org.knime.base.node.stats.viz.extended.ExtendedStatisticsNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Statistics"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Statistic Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.stats"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.9.0.v202511130857"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Statistics Nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.stats.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.9.0.v202511130857"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Statistics"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 4, Cols: 16"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 4, Cols: 3"/>
+            <entry key="port_dir_location" type="xstring" value="port_2"/>
+        </config>
+        <config key="port_3">
+            <entry key="index" type="xint" value="3"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 302, Cols: 12"/>
+            <entry key="port_dir_location" type="xstring" value="port_3"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="8dac1b68-9989-4337-9d46-73e8ec0297d1"/>
+    </config>
+</config>

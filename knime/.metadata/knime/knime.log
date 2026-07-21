@@ -1,0 +1,827 @@
+2026-07-21 00:10:41,014 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-07-21 00:10:41,019 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-07-21 00:10:41,020 : INFO  : main :  : NodeLogger :  :  : # Welcome to KNIME Analytics Platform v5.11.0.v202603030810 (Build March 03, 2026)      #
+2026-07-21 00:10:41,020 : INFO  : main :  : NodeLogger :  :  : # Based on Eclipse, http://www.eclipse.org                                              #
+2026-07-21 00:10:41,020 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-07-21 00:10:41,020 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-07-21 00:10:41,020 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-07-21 00:10:41,020 : INFO  : main :  : NodeLogger :  :  : # Copyright by KNIME AG, Zurich, Switzerland and others.                                #
+2026-07-21 00:10:41,021 : INFO  : main :  : NodeLogger :  :  : # Website: http://www.knime.com                                                         #
+2026-07-21 00:10:41,021 : INFO  : main :  : NodeLogger :  :  : # E-mail: contact@knime.com                                                             #
+2026-07-21 00:10:41,021 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-07-21 00:10:41,021 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-07-21 00:10:41,021 : INFO  : main :  : NodeLogger :  :  : # For more details see the KNIME log file:                                              #
+2026-07-21 00:10:41,021 : INFO  : main :  : NodeLogger :  :  : # C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\knime.log
+2026-07-21 00:10:41,021 : INFO  : main :  : NodeLogger :  :  : #---------------------------------------------------------------------------------------#
+2026-07-21 00:10:41,060 : INFO  : main :  : NodeLogger :  :  : # logging date=mar jul 21 00:10:41 ECT 2026
+2026-07-21 00:10:41,060 : INFO  : main :  : NodeLogger :  :  : # java.version=21.0.9
+2026-07-21 00:10:41,060 : INFO  : main :  : NodeLogger :  :  : # java.vm.version=21.0.9+10-LTS
+2026-07-21 00:10:41,060 : INFO  : main :  : NodeLogger :  :  : # java.vendor=Eclipse Adoptium
+2026-07-21 00:10:41,060 : INFO  : main :  : NodeLogger :  :  : # os.name=Windows 11
+2026-07-21 00:10:41,060 : INFO  : main :  : NodeLogger :  :  : # os.arch=amd64
+2026-07-21 00:10:41,060 : INFO  : main :  : NodeLogger :  :  : # number of CPUs=8
+2026-07-21 00:10:41,061 : INFO  : main :  : NodeLogger :  :  : # assertions=off
+2026-07-21 00:10:41,111 : INFO  : main :  : NodeLogger :  :  : # host=Victor
+2026-07-21 00:10:41,125 : INFO  : main :  : NodeLogger :  :  : # username=Victor
+2026-07-21 00:10:41,126 : INFO  : main :  : NodeLogger :  :  : # max mem=4036MB
+2026-07-21 00:10:41,127 : INFO  : main :  : NodeLogger :  :  : # application=org.knime.product.KNIME_APPLICATION
+2026-07-21 00:10:41,131 : INFO  : main :  : NodeLogger :  :  : # KNID=11-0098ebe145790588-01-eb8c5fe2a926a843
+2026-07-21 00:10:41,131 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-07-21 00:08:21,647 : INFO  : main :  : RegisterBouncyCastleProvider :  :  : Added BouncyCastleProvider to Java Security providers
+2026-07-21 00:10:40,645 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Starting conda environment initialization during early startup
+2026-07-21 00:10:40,746 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Conda environment initialization completed successfully
+2026-07-21 00:10:51,903 : INFO  : main :  : StringHistory :  :  : History file 'C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\history_database_drivers.txt' does not exist.
+2026-07-21 00:10:51,904 : INFO  : main :  : StringHistory :  :  : History file 'C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\history_database_urls.txt' does not exist.
+2026-07-21 00:11:13,280 : INFO  : main :  : ProcessWatchdog :  :  : KNIME Process Watchdog memory limit not configured
+2026-07-21 00:11:13,280 : INFO  : main :  : ProcessWatchdog :  :  : External process memory watchdog is disabled, because the memory limit is set to -1
+2026-07-21 00:11:21,162 : INFO  : Node Repository Initializer :  : MovingAggregationNodeFactory :  :  : Modern dialog for Moving Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-07-21 00:11:21,525 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\history_string2date-formats.txt' does not exist.
+2026-07-21 00:11:21,961 : INFO  : main :  : StringHistory :  :  : History file 'C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\history_org.knime.kerberos.name.txt' does not exist.
+2026-07-21 00:11:33,492 : ERROR : Thread-81 :  : KnimeBrowserView :  :  : Uncaught (in promise) #<Object> (source: about:blank; line: 1)
+2026-07-21 00:11:35,032 : INFO  : Thread-176 :  : KnimeBrowserView :  :  : %cinfo%c Injecting global logger 
+      background: #00BCD4;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:11:52,220 : INFO  : ModalContext :  : LoadWorkflowRunnable :  :  : New workflow created.
+2026-07-21 00:11:54,390 : ERROR : Thread-1243 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object PromiseRejectionEvent] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:11:54,390 : ERROR : Thread-1245 :  : KnimeBrowserView :  :  : Uncaught (in promise) AbortError: The user aborted a request. (source: https://org.knime.ui.java/index.html#/get-started; line: 0)
+2026-07-21 00:12:17,239 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\history_createFileNameHistoryKey.txt' does not exist.
+2026-07-21 00:12:18,058 : INFO  : Node Repository Initializer :  : Pivot2NodeFactory :  :  : Modern dialog for Pivot node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-07-21 00:12:21,565 : INFO  : Node Repository Initializer :  : GroupByNodeFactory :  :  : Modern dialog for GroupBy node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-07-21 00:12:21,685 : INFO  : Node Repository Initializer :  : ColumnAggregatorNodeFactory :  :  : Modern dialog for Column Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-07-21 00:12:29,522 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-07-21 00:12:29,529 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-07-21 00:12:29,529 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-07-21 00:13:59,771 : WARN  : comm-pool-thread-1 :  : Node : CSV Reader : 3:1 : Please specify a file
+2026-07-21 00:14:06,485 : WARN  : comm-pool-thread-3 :  : Node : CSV Reader : 3:2 : Please specify a file
+2026-07-21 00:14:28,358 : WARN  : comm-pool-thread-3 :  : Node : CSV Reader : 3:3 : Please specify a file
+2026-07-21 00:14:56,259 : ERROR : Thread-4715 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to get port view
+ * No port view available at index 1 for current state of node CSV Reader 3:1. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:14:56,262 : ERROR : Thread-4717 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:15:01,513 : INFO  : KNIME-Worker-1-CSV Reader 3:1 :  : LocalNodeExecutionJob : CSV Reader : 3:1 : CSV Reader 3:1 End execute (5 secs)
+2026-07-21 00:15:31,120 : INFO  : KNIME-Worker-1-CSV Reader 3:2 :  : LocalNodeExecutionJob : CSV Reader : 3:2 : CSV Reader 3:2 End execute (0 secs)
+2026-07-21 00:15:31,448 : ERROR : Thread-5969 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to get port view
+ * No port view available at index 1 for current state of node CSV Reader 3:2. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:15:31,454 : ERROR : Thread-5972 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:15:32,999 : INFO  : comm-pool-thread-1 :  : NodeRecommendationManager :  :  : Loading node recommendations from <org.knime.core.ui.workflowcoach.data.PrefsTripleProvider>
+2026-07-21 00:15:32,999 : INFO  : comm-pool-thread-1 :  : NodeRecommendationManager :  :  : Loading node recommendations from <org.knime.workbench.workflowcoach.data.CommunityTripleProvider>
+2026-07-21 00:15:36,220 : INFO  : comm-pool-thread-1 :  : NodeRecommendationManager :  :  : Loading node recommendations from <org.knime.workbench.workflowcoach.local.data.WorkspaceTripleProvider>
+2026-07-21 00:15:36,220 : INFO  : comm-pool-thread-1 :  : NodeRecommendationManager :  :  : Successfully (re-)loaded all node recommendations available
+2026-07-21 00:16:38,066 : INFO  : KNIME-Worker-1-CSV Reader 3:3 :  : LocalNodeExecutionJob : CSV Reader : 3:3 : CSV Reader 3:3 End execute (0 secs)
+2026-07-21 00:16:38,184 : ERROR : Thread-8629 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to get port view
+ * No port view available at index 1 for current state of node CSV Reader 3:3. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:16:38,185 : ERROR : Thread-8631 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:16:43,043 : WARN  : comm-pool-thread-4 :  : Node : CSV Reader : 3:4 : Please specify a file
+2026-07-21 00:17:18,486 : INFO  : KNIME-Worker-1-CSV Reader 3:4 :  : LocalNodeExecutionJob : CSV Reader : 3:4 : CSV Reader 3:4 End execute (0 secs)
+2026-07-21 00:17:18,586 : ERROR : Thread-10168 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to get port view
+ * No port view available at index 1 for current state of node CSV Reader 3:4. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:17:18,586 : ERROR : Thread-10170 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:18:19,453 : WARN  : comm-pool-thread-5 :  : Node : CSV Reader : 3:5 : Please specify a file
+2026-07-21 00:18:39,750 : INFO  : KNIME-Worker-1-CSV Reader 3:5 :  : LocalNodeExecutionJob : CSV Reader : 3:5 : CSV Reader 3:5 End execute (0 secs)
+2026-07-21 00:18:39,890 : ERROR : Thread-11085 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to get port view
+ * No port view available at index 1 for current state of node CSV Reader 3:5. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:18:39,893 : ERROR : Thread-11087 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:19:24,634 : WARN  : comm-pool-thread-5 :  : Node : CSV Reader : 3:6 : Please specify a file
+2026-07-21 00:19:40,822 : INFO  : KNIME-Worker-2-CSV Reader 3:6 :  : LocalNodeExecutionJob : CSV Reader : 3:6 : CSV Reader 3:6 End execute (0 secs)
+2026-07-21 00:19:41,002 : ERROR : Thread-12880 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to get port view
+ * No port view available at index 1 for current state of node CSV Reader 3:6. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:19:41,007 : ERROR : Thread-12882 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:20:07,078 : ERROR : Thread-14097 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to get port view
+ * No port view available at index 1 for current state of node CSV Reader 3:7. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:20:07,080 : ERROR : Thread-14099 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:20:09,202 : INFO  : KNIME-Worker-1-CSV Reader 3:7 :  : LocalNodeExecutionJob : CSV Reader : 3:7 : CSV Reader 3:7 End execute (2 secs)
+2026-07-21 00:20:40,253 : ERROR : Thread-15321 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to get port view
+ * No port view available at index 1 for current state of node CSV Reader 3:8. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:20:40,255 : ERROR : Thread-15323 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:20:41,537 : INFO  : KNIME-Worker-2-CSV Reader 3:8 :  : LocalNodeExecutionJob : CSV Reader : 3:8 : CSV Reader 3:8 End execute (1 sec)
+2026-07-21 00:21:04,079 : INFO  : KNIME-Worker-1-CSV Reader 3:9 :  : LocalNodeExecutionJob : CSV Reader : 3:9 : CSV Reader 3:9 End execute (0 secs)
+2026-07-21 00:21:04,219 : ERROR : Thread-16518 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to get port view
+ * No port view available at index 1 for current state of node CSV Reader 3:9. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:21:04,222 : ERROR : Thread-16521 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:21:24,756 : INFO  : KNIME-Worker-1-CSV Reader 3:10 :  : LocalNodeExecutionJob : CSV Reader : 3:10 : CSV Reader 3:10 End execute (0 secs)
+2026-07-21 00:21:25,038 : ERROR : Thread-17712 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to get port view
+ * No port view available at index 1 for current state of node CSV Reader 3:10. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:21:25,041 : ERROR : Thread-17714 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:23:01,869 : WARN  : comm-pool-thread-10 :  : Node : Report Concatenate (Table) : 3:16 : No report object column set.
+2026-07-21 00:23:36,896 : ERROR : Thread-22026 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Node not found
+ * IllegalArgumentException: No such node ID: 3:11 valid [3:1, 3:2, 3:3, 3:4, 3:5, 3:6, 3:7, 3:8, 3:9, 3:10, 3:12, 3:13, 3:14, 3:15, 3:16] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:23:36,904 : ERROR : Thread-22028 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:23:37,925 : ERROR : Thread-22100 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Delete operation aborted
+ * Some nodes cannot be deleted or do not exist. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:23:37,946 : ERROR : Thread-22102 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object PromiseRejectionEvent] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:23:37,948 : ERROR : Thread-22104 :  : KnimeBrowserView :  :  : Uncaught (in promise) #<Object> (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 73)
+2026-07-21 00:23:41,941 : ERROR : Thread-22268 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Node not found
+ * IllegalArgumentException: No such node ID: 3:11 valid [3:1, 3:2, 3:3, 3:4, 3:5, 3:6, 3:7, 3:8, 3:9, 3:10, 3:12, 3:13, 3:14, 3:15, 3:16] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:23:41,944 : ERROR : Thread-22270 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:23:43,401 : ERROR : Thread-22318 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Delete operation aborted
+ * Some nodes cannot be deleted or do not exist. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:23:43,425 : ERROR : Thread-22320 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object PromiseRejectionEvent] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:23:43,425 : ERROR : Thread-22322 :  : KnimeBrowserView :  :  : Uncaught (in promise) #<Object> (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 73)
+2026-07-21 00:23:45,564 : ERROR : Thread-22437 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Node not found
+ * IllegalArgumentException: No such node ID: 3:11 valid [3:1, 3:2, 3:3, 3:4, 3:5, 3:6, 3:7, 3:8, 3:9, 3:10, 3:12, 3:13, 3:14, 3:15, 3:16] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:23:45,567 : ERROR : Thread-22439 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:23:49,609 : ERROR : Thread-22603 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Delete operation aborted
+ * Some connections do not exist. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:23:49,611 : ERROR : Thread-22605 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object PromiseRejectionEvent] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:23:49,613 : ERROR : Thread-22607 :  : KnimeBrowserView :  :  : Uncaught (in promise) #<Object> (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 73)
+2026-07-21 00:23:50,620 : ERROR : Thread-22642 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Node not found
+ * IllegalArgumentException: No such node ID: 3:11 valid [3:1, 3:2, 3:3, 3:4, 3:5, 3:6, 3:7, 3:8, 3:9, 3:10, 3:12, 3:13, 3:14, 3:15, 3:16] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:23:50,621 : ERROR : Thread-22644 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:23:52,110 : ERROR : Thread-22674 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to execute command
+ * Failed to execute command. Workflow parts not found: nodes (3:11) (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:23:52,114 : ERROR : Thread-22676 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object PromiseRejectionEvent] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:23:52,119 : ERROR : Thread-22678 :  : KnimeBrowserView :  :  : Uncaught (in promise) #<Object> (source: https://org.knime.ui.java/index.html#/workflow/ETL_Trafico_Quito_b9f08f74-ed0d-40cf-b1c4-2aeb47b63697/root?version; line: 0)
+2026-07-21 00:23:52,775 : ERROR : Thread-22701 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to execute command
+ * Failed to execute command. Workflow parts not found: nodes (3:11) (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:23:52,776 : ERROR : Thread-22703 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object PromiseRejectionEvent] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:23:52,777 : ERROR : Thread-22705 :  : KnimeBrowserView :  :  : Uncaught (in promise) #<Object> (source: https://org.knime.ui.java/index.html#/workflow/ETL_Trafico_Quito_b9f08f74-ed0d-40cf-b1c4-2aeb47b63697/root?version; line: 0)
+2026-07-21 00:24:50,805 : ERROR : Thread-22930 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Delete operation aborted
+ * Some nodes cannot be deleted or do not exist. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:24:50,830 : ERROR : Thread-22932 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object PromiseRejectionEvent] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:24:50,831 : ERROR : Thread-22934 :  : KnimeBrowserView :  :  : Uncaught (in promise) #<Object> (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 73)
+2026-07-21 00:24:51,999 : ERROR : Thread-22994 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Node not found
+ * IllegalArgumentException: No such node ID: 3:11 valid [3:1, 3:2, 3:3, 3:4, 3:5, 3:6, 3:7, 3:8, 3:9, 3:10, 3:12, 3:13, 3:14, 3:15, 3:16] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:24:52,002 : ERROR : Thread-22996 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:26:29,522 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x000001a6014064a0 :  : FileUtil :  :  : Deleting 5 temporary files.
+2026-07-21 00:31:15,573 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-07-21 00:31:15,584 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-07-21 00:31:15,586 : INFO  : main :  : NodeLogger :  :  : # Welcome to KNIME Analytics Platform v5.11.0.v202603030810 (Build March 03, 2026)      #
+2026-07-21 00:31:15,587 : INFO  : main :  : NodeLogger :  :  : # Based on Eclipse, http://www.eclipse.org                                              #
+2026-07-21 00:31:15,587 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-07-21 00:31:15,587 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-07-21 00:31:15,587 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-07-21 00:31:15,588 : INFO  : main :  : NodeLogger :  :  : # Copyright by KNIME AG, Zurich, Switzerland and others.                                #
+2026-07-21 00:31:15,588 : INFO  : main :  : NodeLogger :  :  : # Website: http://www.knime.com                                                         #
+2026-07-21 00:31:15,588 : INFO  : main :  : NodeLogger :  :  : # E-mail: contact@knime.com                                                             #
+2026-07-21 00:31:15,589 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-07-21 00:31:15,589 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-07-21 00:31:15,589 : INFO  : main :  : NodeLogger :  :  : # For more details see the KNIME log file:                                              #
+2026-07-21 00:31:15,589 : INFO  : main :  : NodeLogger :  :  : # C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\knime.log
+2026-07-21 00:31:15,589 : INFO  : main :  : NodeLogger :  :  : #---------------------------------------------------------------------------------------#
+2026-07-21 00:31:15,672 : INFO  : main :  : NodeLogger :  :  : # logging date=mar jul 21 00:31:15 ECT 2026
+2026-07-21 00:31:15,673 : INFO  : main :  : NodeLogger :  :  : # java.version=21.0.9
+2026-07-21 00:31:15,673 : INFO  : main :  : NodeLogger :  :  : # java.vm.version=21.0.9+10-LTS
+2026-07-21 00:31:15,673 : INFO  : main :  : NodeLogger :  :  : # java.vendor=Eclipse Adoptium
+2026-07-21 00:31:15,673 : INFO  : main :  : NodeLogger :  :  : # os.name=Windows 11
+2026-07-21 00:31:15,674 : INFO  : main :  : NodeLogger :  :  : # os.arch=amd64
+2026-07-21 00:31:15,674 : INFO  : main :  : NodeLogger :  :  : # number of CPUs=8
+2026-07-21 00:31:15,674 : INFO  : main :  : NodeLogger :  :  : # assertions=off
+2026-07-21 00:31:15,712 : INFO  : main :  : NodeLogger :  :  : # host=Victor
+2026-07-21 00:31:15,817 : INFO  : main :  : NodeLogger :  :  : # username=Victor
+2026-07-21 00:31:15,817 : INFO  : main :  : NodeLogger :  :  : # max mem=4036MB
+2026-07-21 00:31:15,818 : INFO  : main :  : NodeLogger :  :  : # application=org.knime.product.KNIME_APPLICATION
+2026-07-21 00:31:15,861 : INFO  : main :  : NodeLogger :  :  : # KNID=11-0098ebe145790588-01-eb8c5fe2a926a843
+2026-07-21 00:31:15,861 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-07-21 00:29:30,862 : INFO  : main :  : RegisterBouncyCastleProvider :  :  : Added BouncyCastleProvider to Java Security providers
+2026-07-21 00:31:14,752 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Starting conda environment initialization during early startup
+2026-07-21 00:31:15,118 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Conda environment initialization completed successfully
+2026-07-21 00:31:38,893 : INFO  : main :  : StringHistory :  :  : History file 'C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\history_database_drivers.txt' does not exist.
+2026-07-21 00:31:38,894 : INFO  : main :  : StringHistory :  :  : History file 'C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\history_database_urls.txt' does not exist.
+2026-07-21 00:31:45,461 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\history_string2date-formats.txt' does not exist.
+2026-07-21 00:31:45,551 : INFO  : Node Repository Initializer :  : MovingAggregationNodeFactory :  :  : Modern dialog for Moving Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-07-21 00:32:32,106 : INFO  : main :  : ProcessWatchdog :  :  : KNIME Process Watchdog memory limit not configured
+2026-07-21 00:32:32,107 : INFO  : main :  : ProcessWatchdog :  :  : External process memory watchdog is disabled, because the memory limit is set to -1
+2026-07-21 00:32:46,690 : INFO  : main :  : StringHistory :  :  : History file 'C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\history_org.knime.kerberos.name.txt' does not exist.
+2026-07-21 00:32:54,770 : ERROR : Thread-80 :  : KnimeBrowserView :  :  : Uncaught (in promise) #<Object> (source: about:blank; line: 1)
+2026-07-21 00:32:58,058 : INFO  : Thread-179 :  : KnimeBrowserView :  :  : %cinfo%c Injecting global logger 
+      background: #00BCD4;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:33:35,053 : INFO  : Node Repository Initializer :  : Pivot2NodeFactory :  :  : Modern dialog for Pivot node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-07-21 00:33:40,103 : INFO  : Node Repository Initializer :  : GroupByNodeFactory :  :  : Modern dialog for GroupBy node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-07-21 00:33:42,674 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\knime\history_createFileNameHistoryKey.txt' does not exist.
+2026-07-21 00:33:44,648 : INFO  : Node Repository Initializer :  : ColumnAggregatorNodeFactory :  :  : Modern dialog for Column Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-07-21 00:34:06,305 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-07-21 00:34:06,306 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-07-21 00:34:06,593 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-07-21 00:35:04,145 : INFO  : ModalContext :  : LoadWorkflowRunnable :  :  : New workflow created.
+2026-07-21 00:35:55,934 : WARN  : comm-pool-thread-3 :  : Node : CSV Reader : 3:1 : Please specify a file
+2026-07-21 00:36:39,259 : ERROR : Thread-4353 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to get port view
+ * No port view available at index 1 for current state of node CSV Reader 3:1. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:36:39,261 : ERROR : Thread-4355 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:36:41,320 : ERROR : Thread-4423 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object PromiseRejectionEvent] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:36:41,323 : ERROR : Thread-4425 :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'width') (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 60)
+2026-07-21 00:36:44,840 : INFO  : KNIME-Worker-2-CSV Reader 3:1 :  : LocalNodeExecutionJob : CSV Reader : 3:1 : CSV Reader 3:1 End execute (6 secs)
+2026-07-21 00:37:17,055 : ERROR : Thread-5360 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to get port view
+ * No port view available at index 1 for current state of node CSV Reader 3:2. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:37:17,061 : ERROR : Thread-5362 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:37:21,396 : INFO  : KNIME-Worker-3-CSV Reader 3:2 :  : LocalNodeExecutionJob : CSV Reader : 3:2 : CSV Reader 3:2 End execute (4 secs)
+2026-07-21 00:37:49,727 : INFO  : KNIME-Worker-2-Concatenate 3:3 :  : LocalNodeExecutionJob : Concatenate : 3:3 : Concatenate 3:3 End execute (0 secs)
+2026-07-21 00:38:20,775 : INFO  : KNIME-Worker-3-Missing Value 3:4 :  : PMMLPortObject : Missing Value : 3:4 : No mining schema found.
+2026-07-21 00:38:20,776 : INFO  : KNIME-Worker-3-Missing Value 3:4 :  : LocalNodeExecutionJob : Missing Value : 3:4 : Missing Value 3:4 End execute (10 secs)
+2026-07-21 00:38:55,710 : INFO  : KNIME-Worker-2-Duplicate Row Filter 3:5 :  : LocalNodeExecutionJob : Duplicate Row Filter : 3:5 : Duplicate Row Filter 3:5 End execute (19 secs)
+2026-07-21 00:41:20,913 : ERROR : Thread-11655 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to resolve node
+ * No such node ID: 3:5 valid [3:1, 3:2] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:41:20,926 : ERROR : Thread-11657 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:41:20,928 : ERROR : Thread-11659 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Node not found
+ * IllegalArgumentException: No such node ID: 3:5 valid [3:1, 3:2] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:41:20,932 : ERROR : Thread-11661 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:54:14,257 : ERROR : Thread-15525 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to get port view
+ * No port view available at index 1 for current state of node CSV Reader 3:3. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:54:14,981 : ERROR : Thread-15529 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:54:16,248 : INFO  : KNIME-Worker-4-CSV Reader 3:3 :  : LocalNodeExecutionJob : CSV Reader : 3:3 : CSV Reader 3:3 End execute (2 secs)
+2026-07-21 00:54:43,462 : INFO  : KNIME-Worker-4-CSV Reader 3:4 :  : LocalNodeExecutionJob : CSV Reader : 3:4 : CSV Reader 3:4 End execute (0 secs)
+2026-07-21 00:54:43,488 : ERROR : Thread-16548 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to get port view
+ * No port view available at index 1 for current state of node CSV Reader 3:4. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:54:43,498 : ERROR : Thread-16550 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:55:19,111 : ERROR : Thread-17922 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to get port view
+ * No port view available at index 1 for current state of node CSV Reader 3:5. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:55:19,117 : ERROR : Thread-17925 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:55:28,118 : INFO  : KNIME-Worker-4-CSV Reader 3:5 :  : LocalNodeExecutionJob : CSV Reader : 3:5 : CSV Reader 3:5 End execute (9 secs)
+2026-07-21 00:55:48,222 : INFO  : KNIME-Worker-4-CSV Reader 3:6 :  : LocalNodeExecutionJob : CSV Reader : 3:6 : CSV Reader 3:6 End execute (0 secs)
+2026-07-21 00:55:48,367 : ERROR : Thread-19358 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to get port view
+ * No port view available at index 1 for current state of node CSV Reader 3:6. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:55:48,370 : ERROR : Thread-19360 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 00:58:13,178 : INFO  : KNIME-Worker-6-Concatenate 3:7 :  : LocalNodeExecutionJob : Concatenate : 3:7 : Concatenate 3:7 End execute (0 secs)
+2026-07-21 00:59:19,212 : INFO  : KNIME-Worker-7-Concatenate 3:8 :  : LocalNodeExecutionJob : Concatenate : 3:8 : Concatenate 3:8 End execute (0 secs)
+2026-07-21 00:59:53,135 : WARN  : KNIME-Worker-8-Statistics 3:9 :  : Node : Statistics : 3:9 : Maximum number of unique possible values (1000) exceeds for column(s): "asistentes_estimados","fecha_hora"
+2026-07-21 00:59:56,425 : INFO  : KNIME-Worker-8-Statistics 3:9 :  : LocalNodeExecutionJob : Statistics : 3:9 : Statistics 3:9 End execute (7 secs)
+2026-07-21 01:00:13,263 : WARN  : comm-pool-thread-12 :  : Node : GroupBy : 3:10 : No grouping column included. Aggregate complete table.
+2026-07-21 01:00:13,268 : WARN  : comm-pool-thread-12 :  : Node : GroupBy : 3:10 : No aggregation column defined
+2026-07-21 01:00:17,010 : WARN  : comm-pool-thread-12 :  : Node : GroupBy : 3:10 : Please select at least one group or aggregation column
+2026-07-21 01:00:44,929 : WARN  : main :  : WrappedNodeDialog : GroupBy : 3:10 : failed to apply settings: Coding issue: Please select at least one group column or aggregation option
+org.knime.core.node.InvalidSettingsException: Coding issue: Please select at least one group column or aggregation option
+	at org.knime.core.node.Node.validateSettings(Node.java:721)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:687)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1218)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:1173)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2396)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1142)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:677)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:649)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$6.widgetSelected(WrappedNodeDialog.java:515)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:286)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4338)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1214)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4136)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3724)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:198)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:970)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:872)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:101)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:242)
+	at org.knime.ui.java.api.DesktopAPI.invoke(DesktopAPI.java:208)
+	at org.knime.ui.java.api.DesktopAPI.lambda$2(DesktopAPI.java:199)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4111)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3727)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:212)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+Caused by: java.lang.IllegalArgumentException: Please select at least one group column or aggregation option
+	at org.knime.base.node.preproc.groupby.GroupByNodeModel.validateSettings(GroupByNodeModel.java:450)
+	at org.knime.core.node.Node.validateSettings(Node.java:715)
+	... 49 more
+2026-07-21 01:00:47,260 : WARN  : main :  : WrappedNodeDialog : GroupBy : 3:10 : failed to apply settings: Coding issue: Please select at least one group column or aggregation option
+org.knime.core.node.InvalidSettingsException: Coding issue: Please select at least one group column or aggregation option
+	at org.knime.core.node.Node.validateSettings(Node.java:721)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:687)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1218)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:1173)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2396)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1142)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:677)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:649)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:564)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:286)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4338)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1214)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4136)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3724)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:198)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:970)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:872)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:101)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:242)
+	at org.knime.ui.java.api.DesktopAPI.invoke(DesktopAPI.java:208)
+	at org.knime.ui.java.api.DesktopAPI.lambda$2(DesktopAPI.java:199)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4111)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3727)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:212)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+Caused by: java.lang.IllegalArgumentException: Please select at least one group column or aggregation option
+	at org.knime.base.node.preproc.groupby.GroupByNodeModel.validateSettings(GroupByNodeModel.java:450)
+	at org.knime.core.node.Node.validateSettings(Node.java:715)
+	... 50 more
+2026-07-21 01:00:53,217 : WARN  : main :  : Node : GroupBy : 3:10 : No aggregation column defined
+2026-07-21 01:00:54,273 : WARN  : main :  : Node : GroupBy : 3:10 : No aggregation column defined
+2026-07-21 01:01:34,610 : WARN  : KNIME-Worker-12-Statistics 3:9 :  : Node : Statistics : 3:9 : Maximum number of unique possible values (1000) exceeds for column(s): "asistentes_estimados","fecha_hora"
+2026-07-21 01:01:36,568 : INFO  : KNIME-Worker-12-Statistics 3:9 :  : LocalNodeExecutionJob : Statistics : 3:9 : Statistics 3:9 End execute (6 secs)
+2026-07-21 01:02:21,018 : INFO  : KNIME-Worker-14-Histogram 3:11 :  : LocalNodeExecutionJob : Histogram : 3:11 : Histogram 3:11 End execute (3 secs)
+2026-07-21 01:02:26,362 : WARN  : Thread-31124 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.histogram.HistogramNodeFactory/Histogram.html; line: 0)
+2026-07-21 01:03:07,444 : ERROR : Thread-31961 :  : KnimeBrowserView :  :  : ResizeObserver loop completed with undelivered notifications. (source: https://org.knime.ui.java/index.html#/workflow/ETL_Trafico_Quito_23d0c887-c162-4440-a9e3-ef2bc90f2fdc/root?version; line: 0)
+2026-07-21 01:03:17,334 : WARN  : KNIME-Worker-17-Statistics 3:9 :  : Node : Statistics : 3:9 : Maximum number of unique possible values (1000) exceeds for column(s): "asistentes_estimados"
+2026-07-21 01:03:19,359 : INFO  : KNIME-Worker-17-Statistics 3:9 :  : LocalNodeExecutionJob : Statistics : 3:9 : Statistics 3:9 End execute (4 secs)
+2026-07-21 01:06:10,740 : ERROR : Thread-34961 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object PromiseRejectionEvent] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-07-21 01:06:11,697 : ERROR : Thread-34964 :  : KnimeBrowserView :  :  : Uncaught (in promise) #<Object> (source: https://org.knime.ui.java/index.html#/workflow/ETL_Trafico_Quito_23d0c887-c162-4440-a9e3-ef2bc90f2fdc/root?version; line: 1)
+2026-07-21 01:08:12,729 : INFO  : KNIME-Worker-21-Bar Chart 3:11 :  : LocalNodeExecutionJob : Bar Chart : 3:11 : Bar Chart 3:11 End execute (0 secs)
+2026-07-21 01:08:18,858 : WARN  : Thread-37762 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.barchart.BarChartNodeFactory/BarChart.html; line: 0)
+2026-07-21 01:08:30,717 : INFO  : KNIME-Worker-22-Bar Chart 3:11 :  : LocalNodeExecutionJob : Bar Chart : 3:11 : Bar Chart 3:11 End execute (0 secs)
+2026-07-21 01:08:34,223 : WARN  : Thread-38258 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.barchart.BarChartNodeFactory/BarChart.html; line: 0)
+2026-07-21 01:08:42,053 : INFO  : KNIME-Worker-23-Bar Chart 3:11 :  : LocalNodeExecutionJob : Bar Chart : 3:11 : Bar Chart 3:11 End execute (0 secs)
+2026-07-21 01:08:42,433 : WARN  : Thread-38862 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/org.knime.base.views.node.barchart.BarChartNodeFactory/BarChart.html; line: 0)
+2026-07-21 01:09:21,746 : INFO  : KNIME-Worker-24 :  : WorkflowManager :  :  : Could not delete temporary directory for workflow ETL_Trafico_Quito at C:\Users\Usuario\AppData\Local\Temp\knime_ETL_Trafico_Qui_16239
+2026-07-21 01:09:28,346 : ERROR : main :  : runtime :  :  : Error while saving workspace
+org.eclipse.core.internal.resources.ResourceException(/)[568]: java.io.FileNotFoundException: C:\Users\Usuario\proyecto-trafico-quito\knime\.metadata\.plugins\org.eclipse.core.resources\.root\2.tree (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(Unknown Source)
+	at java.base/java.io.FileOutputStream.<init>(Unknown Source)
+	at java.base/java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:55)
+	at org.eclipse.core.internal.resources.SaveManager.saveTree(SaveManager.java:1424)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1230)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2498)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2487)
+	at org.knime.product.rcp.KNIMEApplicationWorkbenchAdvisor.postShutdown(KNIMEApplicationWorkbenchAdvisor.java:277)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:3060)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1193)
+	at org.eclipse.ui.internal.Workbench.lambda$5(Workbench.java:1466)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1466)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1437)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1714)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1741)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1741)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1750)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:505)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:574)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:101)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:136)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4338)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1214)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1238)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1223)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:273)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1566)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4781)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1494)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2387)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5106)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:513)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4881)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1494)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2387)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5106)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:513)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4881)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1494)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2387)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5106)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3722)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:212)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+2026-07-21 01:09:31,870 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x00000261d94444d0 :  : FileUtil :  :  : Deleting 18 temporary files.
